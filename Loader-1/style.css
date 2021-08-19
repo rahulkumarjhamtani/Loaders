@@ -1,0 +1,22 @@
+.spinner
+{
+    margin:auto;
+    margin-top:20%;
+    width:100px;
+    height:100px;
+    position:relative;
+}
+.spinner div
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border:8px solid transparent;
+    border-top-color: rgb(86, 16, 214);
+    border-radius: 50%;
+}
+.spinner div:nth-child(2)
+{
+    border:8px solid transparent;
+    border-bottom-color: rgb(86, 16, 214);
+}
