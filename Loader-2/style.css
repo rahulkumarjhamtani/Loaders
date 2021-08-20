@@ -59,9 +59,8 @@
 {
     .bouncer
     {
-        margin-top:80%;
+        margin-top:55%;
         margin-left:50%;
-        width:100%;
     }
     .bouncer div
     {
@@ -78,9 +77,8 @@
 {
     .bouncer
     {
-        margin-top:70%;
-        margin-left:45%;
-        width:100%;
+        margin-top:50%;
+        margin-left:45%; 
     }
     .bouncer div
     {
@@ -98,7 +96,6 @@
     .bouncer
     {
         margin-top:40%;
-        margin-left:45%;
     }
     .bouncer div
     {
@@ -113,16 +110,6 @@
 }
 @media(min-width:1200px)
 {
-    .bouncer
-    {
-        margin-top:24%;
-        width:200px;
-    }
-    .bouncer div
-    {
-        width:30px;
-        height:30px;
-    }
     @keyframes bounce
     {
         from{transform: translateY(0px);}
